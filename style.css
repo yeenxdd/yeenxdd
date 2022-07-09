@@ -97,9 +97,9 @@ html{
 /* home section styling */
 .home{
     background-color: #fcfffb;
-    height: 80vh;
+    height: 55vh;
     color: #1D3557;
-    min-height: 500px;
+    /* min-height: 350px; */
     font-family: 'Ubuntu', sans-serif;
 }
 .home .home-content{
@@ -147,10 +147,13 @@ html{
 }
 .home .home-content .right{
     width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .home .home-content .right img{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     object-fit: fill;
     border-radius: 16px;
 }
@@ -460,12 +463,22 @@ footer span{
     .home .max-width{
         margin-left: 0px;
     }
+    .home{
+        height: 58vh;
+    }
     .home .home-content{
         padding-top: 10%;
     }
+    .home .home-content .left .text-3{
+        font-size: 34px;
+    }
     .home .home-content .right img{
-        height: 400px;
-        width: 400px;
+        height: 280px;
+        width: 280px;
+    }
+    .about .about-content .left img{
+        height: 320px;
+        width: 320px;
     }
     .project .proj-content .card{
         min-height: 569px;
@@ -476,13 +489,19 @@ footer span{
 }
 
 @media (max-width:1104px){
+    .home{
+        height: 55vh;
+    }
+    .home .home-content .left .text-3{
+        font-size: 34px;
+    }
     .home .home-content .right img{
-        height: 370px;
-        width: 370px;
+        height: 270px;
+        width: 270px;
     }
     .about .about-content .left img{
-        height: 350px;
-        width: 350px;
+        height: 320px;
+        width: 320px;
     }
     .about .about-content .right .text{
         font-size: 24px;
@@ -499,12 +518,22 @@ footer span{
     .max-width{
         padding: 0 50px;
     }
+    .home{
+        height: 53vh;
+    }
+    .home .home-content .left .text-3{
+        font-size: 30px;
+    }
     .home .home-content .right img{
-        height: 360px;
-        width: 360px;
+        height: 260px;
+        width: 260px;
+    }
+    .about .about-content .left img{
+        height: 310px;
+        width: 310px;
     }
     .about .about-content .right .text{
-        font-size: 12px;
+        font-size: 23px;
     }
     .experience .carousel .card{
         min-height: 380px;
@@ -546,13 +575,13 @@ footer span{
         font-size: 25px;
     }
     .home{
-        height: 0;
+        height: 50vh;
     }
     .home .home-content .left .text-2{
         font-size: 66px;
     }
     .home .home-content .left .text-3{
-        font-size: 32px;
+        font-size: 24px;
     }
     .home .home-content .left a{
         font-size: 23px;
