@@ -319,6 +319,9 @@ section .title::after{
     text-align: center;
     font-size: 16px;
 }
+.project .proj-content .card .box a{
+    color: #F1FAEE;
+}
 
 /* skills section styling */
 .skills .title::after{
